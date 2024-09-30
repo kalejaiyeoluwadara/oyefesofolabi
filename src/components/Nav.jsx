@@ -11,7 +11,7 @@ function Nav() {
         <Image height={16} width={16} src={images.crown} alt="" className="" />
         <p className="text-xs Mono">The Greatest</p>
       </section>
-      <section className="flex bg-red-300 flex-1 items-center justify-center">
+      <section className="flex  flex-1 items-center justify-center">
         <div className="h-[2px] bg-black w-full rounded-full " />
       </section>
       <section className="flex gap-3 text-xs Mono ">

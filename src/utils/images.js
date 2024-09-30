@@ -1,3 +1,5 @@
 import crown from "../assets/crown.png";
 import logo from "../assets/logo.svg";
-module.exports = { crown, logo };
+import afolabi from "../assets/afolabi.png";
+import warp from "../assets/warp.png";
+module.exports = { crown, logo, afolabi, warp };

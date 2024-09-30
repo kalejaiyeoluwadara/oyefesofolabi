@@ -3,22 +3,22 @@
 @tailwind utilities;
 @font-face {
   font-family: 'Cooper';
-  src: url('./fonts/coopero.ttf') format('tff');
+  src: url('./fonts/coopern.ttf') format('tff');
   font-weight: 100;
   font-style: light;
 }
 @font-face {
-  font-family: 'Sec';
-  src: url('./fonts/fonnts.com-64029/fonts/sec.ttf') format('tff');
+  font-family: 'Maison';
+  src: url('./fonts/maisonn.ttf') format('tff');
   font-style: normal;
 }
 .Cooper {
   font-family: 'Cooper',sans-serif;
 }
 .Mono {
-  font-family: 'Sec',sans-serif;
+  font-family: 'Maison',sans-serif;
   font-style: normal; 
 }
 *{
-    @apply font-normal Cooper
+    @apply font-light Cooper
 }
