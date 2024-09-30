@@ -1,10 +1,14 @@
 import ReadMore from "@/components/ReadMore";
 import React from "react";
+import ImgWrap from "@/app/comp/ImgWrap";
+import { images } from "@/utils";
 
 function Pewton() {
   return (
-    <main className="h-full sm:w-auto w-full pr-4 ">
-      <div className="w-full bg-black h-[288px] "></div>
+    <main className="h-full sm:w-auto w-full pr-3 ">
+      <div className="w-full  h-[288px] ">
+        <ImgWrap image={images.pewton} />
+      </div>
       <div className="">
         <h2 className="text-xl mt-4">Pewton Technologies</h2>
         <p className="Mono text-xs leading-[19px] ">
@@ -15,7 +19,9 @@ function Pewton() {
           branding and thoughtful color choices, conveying a sense of energy and
           environmental consciousness through innovative technology.
         </p>
-        <ReadMore text={"Read on Behance"} />
+        <section className="mt-5">
+          <ReadMore text={"Read on Behance"} />
+        </section>
       </div>
     </main>
   );

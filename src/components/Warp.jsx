@@ -23,7 +23,7 @@ function Warp() {
             ].map((desc, id) => {
               return (
                 <li
-                  className=" tracking-widest  leading-[19px] list-disc Mono"
+                  className="leading-[19px] tracking-wider list-disc Mono text-xs"
                   key={id}
                 >
                   {desc}

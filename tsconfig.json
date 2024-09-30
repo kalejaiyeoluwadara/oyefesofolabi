@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/components/Nav.jsx",
-    "src/app/page.jsx"
+    "src/app/page.jsx",
+    "src/components/Footer.jsx"
   ],
   "exclude": ["node_modules"]
 }

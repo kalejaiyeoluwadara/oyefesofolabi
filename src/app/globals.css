@@ -12,6 +12,15 @@
   src: url('./fonts/maisonn.ttf') format('tff');
   font-style: normal;
 }
+.flex-center{
+  @apply flex items-center justify-center
+}
+p{
+  @apply text-xs Mono leading-[19px]  
+}
+.up{
+  @apply text-xs leading-[19px] capitalize  underline
+}
 .Cooper {
   font-family: 'Cooper',sans-serif;
 }

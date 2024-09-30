@@ -4,9 +4,13 @@ import { images } from "@/utils";
 import ReadMore from "@/components/ReadMore";
 import Warp from "@/components/Warp";
 import Sec from "@/app/Sec";
+import Third from "@/app/Third";
+import Banner from "@/app/Banner";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen px-[108px] flex flex-col items-start  w-full">
+    <main className="min-h-screen px-[88px] flex flex-col items-start  w-full">
       <Nav />
       <section className="w-full  py-[86px] flex flex-col items-center justify-center ">
         <Image src={images.afolabi} alt="image" height={292} width={292} />
@@ -20,6 +24,9 @@ export default function Home() {
       </section>
       <Warp />
       <Sec />
+      <Third />
+      <Banner />
+      <Footer />
     </main>
   );
 }
