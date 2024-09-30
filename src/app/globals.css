@@ -3,9 +3,9 @@
 @tailwind utilities;
 @font-face {
   font-family: 'Cooper';
-  src: url('./fonts/cooper.ttf') format('tff');
-  font-weight: 400;
-  font-style: normal;
+  src: url('./fonts/coopero.ttf') format('tff');
+  font-weight: 100;
+  font-style: light;
 }
 @font-face {
   font-family: 'Sec';
@@ -13,13 +13,12 @@
   font-style: normal;
 }
 .Cooper {
-  font-family: 'StratosBold',sans-serif;
-  font-style: normal; 
+  font-family: 'Cooper',sans-serif;
 }
 .Mono {
   font-family: 'Sec',sans-serif;
   font-style: normal; 
 }
 *{
-    @apply font-normal Mono
+    @apply font-normal Cooper
 }
