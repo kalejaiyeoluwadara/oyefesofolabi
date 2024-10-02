@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { images } from "@/utils";
 import Ellipse from "./Ellipse";
+import Link from "next/link";
 function Footer() {
   return (
     <div className="w-full">
@@ -22,8 +23,13 @@ function Footer() {
             to elevate your vision together!
           </p>
           <div className="flex mt-5 items-center gap-2">
-            <Ellipse isup={true} color={"bg-[#5EFF00] text-black"} />
-            <p>Schedule a call</p>
+            <Ellipse isup={true} color={"bg-green-500 text-black"} />
+            <Link
+              href={"https://cal.com/iamoyefeso"}
+              className="hover:underline p cursor-pointer"
+            >
+              Schedule a call
+            </Link>
           </div>
         </div>
       </div>
@@ -34,7 +40,14 @@ function Footer() {
 
           <section className="flex gap-3 text-xs Mono ">
             <p>
-              Built by <span className="up Mono">Dara Kalejaiye</span>
+              Built by{" "}
+              <Link
+                target="_blank"
+                href={"https://portfolio-3v84.vercel.app/"}
+                className="up Mono"
+              >
+                Dara Kalejaiye
+              </Link>
             </p>
           </section>
         </section>

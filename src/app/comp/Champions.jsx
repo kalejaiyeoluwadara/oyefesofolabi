@@ -21,7 +21,10 @@ function Champions() {
           and developed tools to help users navigate the platform efficiently.
         </p>
         <section className="mt-5">
-          <ReadMore text={"Champions story"} />
+          <ReadMore
+            link={"https://championlogistics.org.ng/"}
+            text={"Champions story"}
+          />
         </section>
       </div>
     </main>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { images } from "@/utils";
 import Ellipse from "@/components/Ellipse";
+import Link from "next/link";
 function Banner() {
   return (
     <main className="h-auto mt-10 border-y-[2px] border-black py-10 w-full  grid sm:grid-cols-2 justify-between ">
@@ -17,7 +18,14 @@ function Banner() {
         </div>
         <section className="mt-5 flex items-center gap-3">
           <Ellipse isup={true} color={"bg-[#005F26]"} />
-          <p className="up">Checkout my playlist </p>
+          <Link
+            href={
+              "https://open.spotify.com/user/g2odg599t3r8tfk72nqvy0xvz?si=77463cead4ca47b8"
+            }
+            className="up "
+          >
+            Checkout my playlist{" "}
+          </Link>
         </section>
       </section>
       <section className="w-full h-full  pl-[15px] border-l-[0.2px] border-black ">
@@ -28,7 +36,12 @@ function Banner() {
         />
         <section className="mt-5 flex items-center gap-3">
           <Ellipse isup={false} color={"bg-black"} />
-          <p className="">Currently Watching Billions</p>
+          <Link
+            href={"https://en.wikipedia.org/wiki/Billions_(TV_series)"}
+            className="Mono text-xs"
+          >
+            Currently Watching Billions
+          </Link>
         </section>
       </section>
     </main>

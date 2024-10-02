@@ -21,7 +21,10 @@ function Unito() {
           transactions, and anonymous donations
         </p>
         <section className="mt-5">
-          <ReadMore text={"Learn more"} />
+          <ReadMore
+            link={"https://www.behance.net/gallery/187780619/Unito-Case-Study"}
+            text={"Learn more"}
+          />
         </section>
       </div>
     </main>

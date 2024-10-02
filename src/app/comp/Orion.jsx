@@ -34,7 +34,12 @@ function Orion() {
           })}
         </ul>
         <section className="flex mt-5 gap-2">
-          <ReadMore text={"Read on Behance"} />
+          <ReadMore
+            link={
+              "https://www.behance.net/gallery/208518345/Orion-Smart-Watch-Design"
+            }
+            text={"Read on Behance"}
+          />
         </section>
       </div>
     </main>

@@ -18,8 +18,11 @@
 p{
   @apply text-xs Mono leading-[19px]  
 }
+.p{
+  @apply text-xs Mono leading-[19px]  
+}
 .up{
-  @apply text-xs leading-[19px] capitalize  underline
+  @apply text-xs leading-[19px] capitalize  underline hover:no-underline transition-all Mono
 }
 .Cooper {
   font-family: 'Cooper',sans-serif;
