@@ -32,7 +32,12 @@ function Warp() {
             })}
           </ul>
           <div>
-            <ReadMore text={"Warp Text"} />
+            <ReadMore
+              link={
+                "https://www.behance.net/gallery/182428137/Warp-Virtual-Reality-mobile-App"
+              }
+              text={"Warp Study"}
+            />
           </div>
         </div>
         <div className="sm:flex-1">

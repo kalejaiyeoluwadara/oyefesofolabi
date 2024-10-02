@@ -20,7 +20,12 @@ function Pewton() {
           environmental consciousness through innovative technology.
         </p>
         <section className="mt-5">
-          <ReadMore text={"Read on Behance"} />
+          <ReadMore
+            text={"Read on Behance"}
+            link={
+              "https://www.behance.net/gallery/196203303/Pewton-Technologies-A-Branding-and-Website-Design"
+            }
+          />
         </section>
       </div>
     </main>

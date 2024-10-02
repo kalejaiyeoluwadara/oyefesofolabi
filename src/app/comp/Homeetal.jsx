@@ -22,8 +22,13 @@ function Homeetal() {
           Each step ensures the final product is user-centered and refined
           through iteration.
         </p>
-        <section className="flex mt-5 gap-2">
-          <ReadMore text={"Read on Behance"} />
+        <section className="flex mt-5 gap-4">
+          <ReadMore
+            link={
+              "https://www.behance.net/gallery/206976401/My-Home-etal-Product-Design"
+            }
+            text={"Read on Behance"}
+          />
           <Shop />
         </section>
       </div>

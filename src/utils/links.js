@@ -1,23 +1,23 @@
 const links = [
   {
     name: "whatsapp",
-    link: "",
+    link: "https://wa.me/+2347057997839",
   },
   {
     name: "Dribble",
-    link: "",
+    link: "https://dribbble.com/kinvenho",
   },
   {
     name: "x",
-    link: "",
+    link: "https://x.com/iamoyefeso",
   },
   {
     name: "Behance",
-    link: "",
+    link: "https://www.behance.net/oyefeso_afolabi",
   },
   {
     name: "Linkedin",
-    link: "",
+    link: "https://www.linkedin.com/in/oyefeso-afolabi/",
   },
 ];
 module.exports = { links };

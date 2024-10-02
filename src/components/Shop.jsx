@@ -1,9 +1,10 @@
 import React from "react";
+import Ellipse from "./Ellipse";
 
 function Shop() {
   return (
-    <div className="flex items-center gap-3">
-      <div className="h-[17px] w-[17px] bg-[#B2191B] rounded-full " />
+    <div className="flex items-center gap-2">
+      <Ellipse color={"bg-[#B2191B]"} isup={false} />
       <p className=" underline ">Shop Myhomeetal</p>
     </div>
   );

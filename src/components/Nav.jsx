@@ -17,7 +17,11 @@ function Nav() {
       <section className="flex gap-3 text-xs Mono ">
         {socials.map((link, id) => {
           return (
-            <Link className="capitalize Mono" key={id} href={link.link}>
+            <Link
+              className="capitalize hover:underline  transition-all  Mono"
+              key={id}
+              href={link.link}
+            >
               {link.name}
             </Link>
           );
