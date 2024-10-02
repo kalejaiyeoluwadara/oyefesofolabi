@@ -25,6 +25,7 @@ function Footer() {
           <div className="flex mt-5 items-center gap-2">
             <Ellipse isup={true} color={"bg-green-500 text-black"} />
             <Link
+              target="_blank"
               href={"https://cal.com/iamoyefeso"}
               className="hover:underline p cursor-pointer"
             >

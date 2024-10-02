@@ -18,6 +18,7 @@ function Nav() {
         {socials.map((link, id) => {
           return (
             <Link
+              target="_blank"
               className="capitalize hover:underline  transition-all  Mono"
               key={id}
               href={link.link}

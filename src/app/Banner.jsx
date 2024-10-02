@@ -19,6 +19,7 @@ function Banner() {
         <section className="mt-5 flex items-center gap-3">
           <Ellipse isup={true} color={"bg-[#005F26]"} />
           <Link
+            target="_blank"
             href={
               "https://open.spotify.com/user/g2odg599t3r8tfk72nqvy0xvz?si=77463cead4ca47b8"
             }
@@ -37,6 +38,7 @@ function Banner() {
         <section className="mt-5 flex items-center gap-3">
           <Ellipse isup={false} color={"bg-black"} />
           <Link
+            target="_blank"
             href={"https://en.wikipedia.org/wiki/Billions_(TV_series)"}
             className="Mono text-xs"
           >
