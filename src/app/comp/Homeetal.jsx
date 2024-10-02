@@ -6,7 +6,7 @@ import { images } from "@/utils";
 
 function Homeetal() {
   return (
-    <main className="h-full sm:w-auto w-full px-3 border-x-[1px] border-black col-span-2 ">
+    <main className="h-full sm:w-auto w-full px-3 sm:border-x-[1px] border-black col-span-2 ">
       <div className="w-full h-[288px] ">
         <ImgWrap image={images.homeetal} />
       </div>

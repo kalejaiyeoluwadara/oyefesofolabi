@@ -5,8 +5,8 @@ import ReadMore from "./ReadMore";
 function Warp() {
   return (
     <section className="sm:min-h-[451px] border-y-[2px] flex items-center border-black w-full ">
-      <div className="mt-6 w-full sm:justify-between flex sm:flex-row flex-col">
-        <div className="sm:w-[404px] flex flex-col justify-center w-full ">
+      <div className="mt-6 w-full sm:justify-between flex sm:flex-row flex-col-reverse">
+        <div className="sm:w-[404px] sm:py-0 py-10 flex flex-col justify-center w-full ">
           <h2 className="text-[22px] ">Warp Virtual Reality </h2>
           <p className="Mono">
             Users travel virtually through time and immerse themselves in

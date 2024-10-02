@@ -5,8 +5,8 @@ import Ellipse from "@/components/Ellipse";
 import Link from "next/link";
 function Banner() {
   return (
-    <main className="h-auto mt-10 border-y-[2px] border-black py-10 w-full  grid sm:grid-cols-2 justify-between ">
-      <section className="w-full h-full pr-[15px] border-r-[0.2px] border-black ">
+    <main className="h-auto mt-10 border-y-[2px] border-black py-10 w-full  grid sm:grid-cols-2 sm:gap-0 gap-6 justify-between ">
+      <section className="w-full h-full sm:pr-[15px] sm:border-r-[0.2px] border-black ">
         <div className="w-full relative justify-start items-end flex p-5 h-[221px] bg-[#001314]">
           <Image
             src={images.spotify}
@@ -29,7 +29,7 @@ function Banner() {
           </Link>
         </section>
       </section>
-      <section className="w-full h-full  pl-[15px] border-l-[0.2px] border-black ">
+      <section className="w-full sm:h-full  sm:pl-[15px] sm:border-l-[0.2px] border-black ">
         <Image
           src={images.banner}
           alt="banner"

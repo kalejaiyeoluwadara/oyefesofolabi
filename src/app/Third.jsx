@@ -7,7 +7,7 @@ import Champions from "./comp/Champions";
 import Unito from "./comp/Unito";
 function Sec() {
   return (
-    <div className="h-[560px] py-6 w-full grid grid-cols-4 ">
+    <div className="sm:h-[560px] sm:gap-0 gap-6 h-auto py-6 w-full flex flex-col sm:grid grid-cols-4 ">
       <Orion />
       <Champions />
       <Unito />

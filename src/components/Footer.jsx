@@ -36,7 +36,7 @@ function Footer() {
       </div>
 
       <div className="border-t-[1.3px]  mt-10 mb-10 border-black w-full ">
-        <section className="sm:flex sm:flex-row w-full items-center  mt-[17px] justify-between ">
+        <section className="flex flex-col sm:gap-0 gap-[7px] sm:flex-row w-full items-center  mt-[17px] justify-center sm:justify-between ">
           <p className="text-xs Mono">Copyright © 2024 Oyefeso Afolabi</p>
 
           <section className="flex gap-3 text-xs Mono ">
