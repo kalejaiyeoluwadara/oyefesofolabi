@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen px-5 sm:px-[70px] flex flex-col items-start w-screen overflow-x-hidden">
+    <main className="min-h-screen px-5 sm:px-[70px] flex flex-col items-start w-full overflow-x-hidden">
       <Nav />
       <section className="w-full  py-[86px] flex flex-col items-center justify-center ">
         <Image src={images.afolabi} alt="image" height={292} width={292} />
