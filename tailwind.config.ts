@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        cooper: ["Cooper", "sans-serif"],
+        maison: ["Maison", "sans-serif"],
+      },
     },
   },
   plugins: [],

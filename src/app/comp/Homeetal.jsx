@@ -11,14 +11,14 @@ function Homeetal() {
         <ImgWrap image={images.homeetal} />
       </div>
       <div className="">
-        <h2 className="text-xl mt-4">My Home etal E-commerce Store</h2>
-        <p className="Mono text-xs leading-[19px] ">
+        <h2 className="mt-4">My Home etal E-commerce Store</h2>
+        <p className="text-xs leading-[19px] ">
           My Home et al is a retail company, proudly rooted in Nigeria and
           founded in 2012. The design process is a systematic approach that
           moves from understanding users and defining their needs to generating
           ideas, creating prototypes, and testing solutions.
         </p>
-        <p className="Mono text-xs leading-[19px] ">
+        <p className="text-xs leading-[19px] ">
           Each step ensures the final product is user-centered and refined
           through iteration.
         </p>

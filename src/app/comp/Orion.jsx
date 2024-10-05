@@ -10,7 +10,7 @@ function Orion() {
         <ImgWrap image={images.orion} />
       </div>
       <div className="">
-        <h2 className="text-xl mt-4">Orion edition smartwatch</h2>
+        <h2 className="mt-4">Orion edition smartwatch</h2>
         <p className="Mono text-xs leading-[19px] ">
           Orion is a new line of wearable devices designed to elevate iTech
           Wearables’ product offerings. It focuses on enhancing user experience

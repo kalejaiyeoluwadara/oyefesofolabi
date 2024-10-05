@@ -9,7 +9,7 @@ function Champions() {
         <ImgWrap image={images.champion} />
       </div>
       <div className="">
-        <h2 className="text-xl mt-4">Champions Logistics</h2>
+        <h2 className="mt-4">Champions Logistics</h2>
         <p className="Mono text-xs leading-[19px] ">
           Across Nigeria and beyond, thousands of businesses rely on Champions
           Logistics to move their goods faster, more efficiently, & reliably.

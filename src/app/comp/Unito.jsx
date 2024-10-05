@@ -10,7 +10,7 @@ function Unito() {
         <ImgWrap image={images.unito} />
       </div>
       <div className="">
-        <h2 className="text-xl mt-4">Unito Charity</h2>
+        <h2 className="mt-4">Unito Charity</h2>
         <p className="Mono text-xs leading-[19px] ">
           Unito is set to transform the way individuals interact with charitable
           causes.

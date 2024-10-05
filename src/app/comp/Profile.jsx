@@ -15,7 +15,7 @@ function Profile() {
       </div>
       <div className="">
         <div className="flex mt-4 items-center  justify-between w-full">
-          <h2 className="text-xl ">Publica profile O</h2>
+          <h2 className="">Publica profile O</h2>
           <div
             onClick={() => router.push("https://www.instagram.com/iamoyefeso")}
             className="flex  justify-center  items-center gap-2"
