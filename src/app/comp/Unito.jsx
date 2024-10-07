@@ -5,7 +5,7 @@ import { images } from "@/utils";
 
 function Unito() {
   return (
-    <main className="h-full sm:w-auto w-full pl-3 ">
+    <main className="h-full sm:w-auto w-full sm:pl-3 ">
       <div className="w-full  h-[195px] ">
         <ImgWrap
           link={"https://www.behance.net/gallery/187780619/Unito-Case-Study"}

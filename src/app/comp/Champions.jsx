@@ -4,7 +4,7 @@ import ImgWrap from "@/app/comp/ImgWrap";
 import { images } from "@/utils";
 function Champions() {
   return (
-    <main className="h-full sm:border-x-[1px] border-black px-3 sm:w-auto w-full sm:pr-3 ">
+    <main className="h-full sm:border-x-[1px] border-black sm:px-3 sm:w-auto w-full sm:pr-3 sm:border-y-0 border-y-[1px] sm:py-0 py-6  ">
       <div className="w-full  h-[246px] ">
         <ImgWrap
           link={"https://championlogistics.org.ng/"}

@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 function Profile() {
   const router = useRouter();
   return (
-    <main className="h-full sm:w-auto w-full pl-3 ">
+    <main className="h-full sm:w-auto w-full sm:border-t-0 border-t-[1px] sm:pt-0 pt-6 border-black sm:pl-3 ">
       <div className="w-full  h-[288px] ">
         <ImgWrap
           link={"https://www.instagram.com/iamoyefeso"}
