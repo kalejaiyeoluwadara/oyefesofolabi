@@ -20,7 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>{/* Favicon will be added automatically */}</head>
       <body>{children}</body>
     </html>
   );
