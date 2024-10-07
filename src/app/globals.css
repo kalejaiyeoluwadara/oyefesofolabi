@@ -28,8 +28,11 @@ p{
 .p{
   @apply text-xs Mono leading-[19px]  
 }
+.bluri{
+  @apply hover:grayscale grayscale-0 transition-all
+}
 .up{
-  @apply text-xs leading-[19px] capitalize  underline hover:no-underline transition-all Mono
+  @apply text-xs leading-[19px] capitalize  underline transition-all Mono
 }
 .Cooper {
   font-family: 'Cooper',sans-serif;

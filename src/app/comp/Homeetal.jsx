@@ -8,7 +8,12 @@ function Homeetal() {
   return (
     <main className="h-full sm:w-auto w-full px-3 sm:border-x-[1px] border-black col-span-2 ">
       <div className="w-full h-[288px] ">
-        <ImgWrap image={images.homeetal} />
+        <ImgWrap
+          link={
+            "https://www.behance.net/gallery/206976401/My-Home-etal-Product-Design"
+          }
+          image={images.homeetal}
+        />
       </div>
       <div className="">
         <h2 className="mt-4">My Home etal E-commerce Store</h2>

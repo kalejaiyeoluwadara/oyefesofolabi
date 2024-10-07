@@ -19,7 +19,7 @@ function Nav() {
           return (
             <Link
               target="_blank"
-              className="capitalize hover:underline  transition-all  Mono"
+              className="capitalize underline  transition-all  Mono"
               key={id}
               href={link.link}
             >

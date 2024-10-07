@@ -11,7 +11,10 @@ function Profile() {
   return (
     <main className="h-full sm:w-auto w-full pl-3 ">
       <div className="w-full  h-[288px] ">
-        <ImgWrap image={images.profile} />
+        <ImgWrap
+          link={"https://www.instagram.com/iamoyefeso"}
+          image={images.profile}
+        />
       </div>
       <div className="">
         <div className="flex mt-4 items-center  justify-between w-full">

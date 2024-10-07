@@ -7,7 +7,12 @@ function Pewton() {
   return (
     <main className="h-full sm:w-auto w-full pr-3 ">
       <div className="w-full  h-[288px] ">
-        <ImgWrap image={images.pewton} />
+        <ImgWrap
+          link={
+            "https://www.behance.net/gallery/196203303/Pewton-Technologies-A-Branding-and-Website-Design"
+          }
+          image={images.pewton}
+        />
       </div>
       <div className="">
         <h2 className="mt-4">Pewton Technologies</h2>

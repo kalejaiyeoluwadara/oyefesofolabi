@@ -7,7 +7,12 @@ function Orion() {
   return (
     <main className="h-full sm:w-auto w-full pr-3  border-black col-span-2 ">
       <div className="w-full border-[1px] border-black h-[288px] ">
-        <ImgWrap image={images.orion} />
+        <ImgWrap
+          link={
+            "https://www.behance.net/gallery/208518345/Orion-Smart-Watch-Design"
+          }
+          image={images.orion}
+        />
       </div>
       <div className="">
         <h2 className="mt-4">Orion edition smartwatch</h2>

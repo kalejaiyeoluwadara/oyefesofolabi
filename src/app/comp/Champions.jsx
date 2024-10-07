@@ -6,7 +6,10 @@ function Champions() {
   return (
     <main className="h-full sm:border-x-[1px] border-black px-3 sm:w-auto w-full sm:pr-3 ">
       <div className="w-full  h-[246px] ">
-        <ImgWrap image={images.champion} />
+        <ImgWrap
+          link={"https://championlogistics.org.ng/"}
+          image={images.champion}
+        />
       </div>
       <div className="">
         <h2 className="mt-4">Champions Logistics</h2>

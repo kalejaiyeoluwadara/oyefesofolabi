@@ -7,7 +7,10 @@ function Unito() {
   return (
     <main className="h-full sm:w-auto w-full pl-3 ">
       <div className="w-full  h-[195px] ">
-        <ImgWrap image={images.unito} />
+        <ImgWrap
+          link={"https://www.behance.net/gallery/187780619/Unito-Case-Study"}
+          image={images.unito}
+        />
       </div>
       <div className="">
         <h2 className="mt-4">Unito Charity</h2>

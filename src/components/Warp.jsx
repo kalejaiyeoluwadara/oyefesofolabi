@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { images } from "../utils";
 import ReadMore from "./ReadMore";
+import Link from "next/link";
 function Warp() {
   return (
     <section className="sm:min-h-[451px] border-y-[1px] flex items-center border-black w-full ">
@@ -41,11 +42,13 @@ function Warp() {
           </div>
         </div>
         <div className="sm:flex-1">
-          <Image
-            src={images.warp}
-            alt="warp image"
-            className="flex-shrink-0 w-full h-full "
-          />
+          <Link href="https://www.behance.net/gallery/182428137/Warp-Virtual-Reality-mobile-App">
+            <Image
+              src={images.warp}
+              alt="warp image"
+              className="flex-shrink-0 bluri cursor-pointer w-full h-full "
+            />
+          </Link>
         </div>
       </div>
     </section>
