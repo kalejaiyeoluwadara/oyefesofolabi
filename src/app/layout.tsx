@@ -3,6 +3,14 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Oyefeso Afolabi",
   description: "Oyefeso Afolabi",
+  icons: {
+    icon: [
+      {
+        url: "/fav.png",
+        href: "/fav.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -12,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>{/* Favicon will be added automatically */}</head>
       <body>{children}</body>
     </html>
   );
