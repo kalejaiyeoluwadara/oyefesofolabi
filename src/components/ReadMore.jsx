@@ -11,7 +11,7 @@ function ReadMore({ text, link }) {
       <div className="h-[17px] flex-center w-[17px] bg-[#1010FF] rounded-full ">
         <GoArrowDownRight size={10} className="text-white" />
       </div>
-      <p className=" hover:no-underline transition-all underline ">{text}</p>
+      <p className=" transition-all underline ">{text}</p>
     </Link>
   );
 }

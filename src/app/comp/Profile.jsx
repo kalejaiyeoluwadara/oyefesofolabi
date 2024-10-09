@@ -24,9 +24,7 @@ function Profile() {
             className="flex  justify-center  items-center gap-2"
           >
             <Ellipse color={"bg-[#9747FF]"} isup={true} />
-            <p className="Mono text-xs hover:no-underline transition-all underline">
-              instagram
-            </p>
+            <p className="Mono text-xs transition-all underline">instagram</p>
           </div>
         </div>
         <p className="Mono text-xs leading-[19px] ">
